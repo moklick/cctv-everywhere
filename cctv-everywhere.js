@@ -1,13 +1,14 @@
 var cctv = {};
 cctv = (function(window, document, undefined) {
-	extend = function(dest, src) {
+	
+	'use strict';
+	
+	var extend = function(dest, src) {
 	  for (var prop in src){
 	  	dest[prop] = src[prop];
 	  }
 	  return dest;
 	};
-
-	'use strict';
 
 	var cctvCam = {
 		viewPoint: {
