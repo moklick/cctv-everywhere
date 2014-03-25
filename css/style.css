@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0
+}
+body{
+  background: #fafafa;
+  color:#222;
+  font-family: 'Anonymous Pro', sans-serif;
+}
+h1{
+  font-size:40px;
+}
+a{
+  color:#222;
+}
+.info{
+  text-align:left;
+  margin-top: 50px;
+  width:75%;
+  max-width:1200px;
+  margin: 50px auto 0 auto;
+  transition: opacity 2s;
+}
+.text{
+  font-size:19px;
+  line-height: 28px;
+  margin: 20px 0 10px 0;
+}
+.info .code{
+  font-size: 15px
+}
+.download-btn{
+  background:#FF6656;
+  padding:20px;
+  text-align:center;
+  font-weight:bold;
+  font-size:19px;
+  margin-top:15px;
+  border:none;
+  cursor: pointer;
+  color:white;
+  border-radius: 1px;
+  font-family: 'Anonymous Pro', sans-serif;
+}
+.download-btn:hover{
+  background:#fa4e3e;
+}
+.download-btn:focus{
+  border:none;
+  outline:none;
+}
+.credits{
+  margin-top:20px;
+}
