@@ -30,6 +30,8 @@ a{
   font-size: 15px
 }
 .download-btn{
+  text-decoration:none;
+  display:block;
   background:#FF6656;
   padding:20px;
   text-align:center;
