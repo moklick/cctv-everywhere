@@ -31,7 +31,7 @@ a{
 }
 .download-btn{
   text-decoration:none;
-  display:block;
+  display:inline-block;
   background:#FF6656;
   padding:20px;
   text-align:center;
