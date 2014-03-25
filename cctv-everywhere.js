@@ -163,9 +163,3 @@ cctv = (function(window, document, undefined) {
 		watch: init
 	}
 }(window, document));
-
-cctv.watch({
-	side: 'left',
-	top: '50px',
-	color: 'rgba(0,0,0,.8)'
-});
