@@ -1,7 +1,7 @@
 cctv-everywhere
 ===============
 
-An interactive CCTV Widget for your website.
+An interactive CCTV Widget for your website. [http://moklick.github.io/cctv-everywhere/](http://moklick.github.io/cctv-everywhere/)
 
 ##Usage
 
