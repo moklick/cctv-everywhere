@@ -86,7 +86,7 @@
                 ctx.lineTo(x, y + radius);
                 ctx.quadraticCurveTo(x, y, x + radius, y);
             }
-        }
+        };
 
         var ctx,
             width,
@@ -102,7 +102,7 @@
             };
 
         function init(opts) {
-            if (!(!!window.HTMLCanvasElement)) return false;
+            if (!window.HTMLCanvasElement) return false;
 
             options = extend(options, opts);
             createCanvas(options);
@@ -113,18 +113,22 @@
 
         function createCanvas(options) {
             var canvas = document.createElement('canvas');
+            var pixelSize = window.devicePixelRatio || 1;
+
             canvas.id = 'cctv-cam';
             canvas.style.position = 'absolute';
             canvas.style.top = options.top || 0;
             canvas.style.right = options.side === 'right' ? 0 : 'auto';
-            canvas.width = width = options.size || 200;
-            canvas.height = height = options.size || 200;
+            canvas.style.width = canvas.style.height = (options.size || 200)+'px';
+            canvas.width = width = canvas.height = height = (options.size || 200)*pixelSize;
 
             ctx = canvas.getContext('2d');
 
             if (options.side === 'right') {
                 ctx.translate(width, 0);
-                ctx.scale(-1, 1);
+                ctx.scale(-pixelSize, pixelSize);
+            }else {
+                ctx.scale(pixelSize,pixelSize);
             }
 
             document.body.appendChild(canvas);
