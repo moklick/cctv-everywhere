@@ -1,8 +1,7 @@
 CCTV Everywhere
 ===============
 
-A creepy CCTV Widget for your website.  
-**Demo:** [http://moklick.github.io/cctv-everywhere/](http://moklick.github.io/cctv-everywhere/)
+A creepy CCTV Widget for your website. **Demo:** [http://moklick.github.io/cctv-everywhere/](http://moklick.github.io/cctv-everywhere/)
 
 ## Installation
 
