@@ -1,4 +1,4 @@
-cctv-everywhere
+CCTV Everywhere
 ===============
 
 A creepy CCTV Widget for your website.  
