@@ -13,16 +13,16 @@ $ npm install --save cctv-everywhere
 
 ```js
 
-    /**
-    * Starts the cctv camera at the position and in the color of your choice.
-    * For the lazy: Just do cctv.watch();
-    */
-    var cctv = require('cctv-everywhere');
+/**
+* Starts the cctv camera at the position and in the color of your choice.
+* For the lazy: Just do cctv.watch();
+*/
+const cctv = require('cctv-everywhere');
 
-    cctv.watch({
-      side : 'left', // default : left
-      top : '50px',  // default : 75px
-      color : 'rgba(0,0,0,.8)' // default : #303030
-    });
+cctv.watch({
+  side: 'left', // default 'left'
+  top: '50px',  // default '75px'
+  color: 'rgba(0,0,0,.8)' // default '#303030'
+});
     
 ```
